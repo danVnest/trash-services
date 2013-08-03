@@ -1,0 +1,13 @@
+TODO
+
+- migrate prototype applescript code to volumes service
+- if option key held, secure delete
+- if control key held, sudo rm
+- create installer
+message if trash remains for other users (tell to hold down control or press button)
+test
+create the permanent delete service
+give warning if permissions aren't enough, tell to use control key
+check if Macintosh HD
+message if file passed in isn't a volume
+if modKeysPressed is not installed, tell user to download, and/or ignore and proceed anyway

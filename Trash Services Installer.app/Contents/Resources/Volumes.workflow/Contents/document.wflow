@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>346</string>
+	<key>AMApplicationVersion</key>
+	<string>2.3</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>itemType</key>
+					<dict/>
+					<key>predicate</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>AMSelectedInputType</key>
+				<string>com.apple.cocoa.path</string>
+				<key>AMSelectedOutputType</key>
+				<string>com.apple.cocoa.path</string>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Filter Finder Items 2.action</string>
+				<key>ActionName</key>
+				<string>Filter Finder Items</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>itemType</key>
+					<string>com.apple.cocoa.path</string>
+					<key>predicate</key>
+					<data>
+					YnBsaXN0MDDUAQIDBAUGbm9YJHZlcnNpb25Y
+					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
+					oK8QFgcIDxQcJicpMTU6O0BESk9QVV1iZ2lV
+					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
+					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
+					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
+					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
+					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
+					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
+					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
+					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
+					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
+					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
+					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
+					ZWxmRXhwcmVzc2lvbqMuLzBfEBBOU1NlbGZF
+					eHByZXNzaW9uXE5TRXhwcmVzc2lvblhOU09i
+					amVjdNIQCzI0oTOACYAM0wsfNjc4OVlOU0tl
+					eVBhdGiACxAKgApUa2luZNIqKzw9XxAcTlNL
+					ZXlQYXRoU3BlY2lmaWVyRXhwcmVzc2lvbqM+
+					PzBfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
+					ZXNzaW9uXE5TRXhwcmVzc2lvbtIqK0FCXk5T
+					TXV0YWJsZUFycmF5o0FDMFdOU0FycmF50ior
+					RUZfEBNOU0tleVBhdGhFeHByZXNzaW9upEdI
+					STBfEBNOU0tleVBhdGhFeHByZXNzaW9uXxAU
+					TlNGdW5jdGlvbkV4cHJlc3Npb25cTlNFeHBy
+					ZXNzaW9u00sfC0xNTl8QD05TQ29uc3RhbnRW
+					YWx1ZYAPEACAEFZ2b2x1bWXSKitRUl8QGU5T
+					Q29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jU1Qw
+					XxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lv
+					blxOU0V4cHJlc3Npb27VC1ZXWFlaTVtNXFpO
+					U01vZGlmaWVyWE5TTmVnYXRlWU5TT3B0aW9u
+					c15OU09wZXJhdG9yVHlwZYASCBAE0iorXl9f
+					EBtOU0VxdWFsaXR5UHJlZGljYXRlT3BlcmF0
+					b3KjYGEwXxAbTlNFcXVhbGl0eVByZWRpY2F0
+					ZU9wZXJhdG9yXxATTlNQcmVkaWNhdGVPcGVy
+					YXRvctIqK2NkXxAVTlNDb21wYXJpc29uUHJl
+					ZGljYXRlo2VmMF8QFU5TQ29tcGFyaXNvblBy
+					ZWRpY2F0ZVtOU1ByZWRpY2F0ZdIqK0NookMw
+					0ioramtfEBNOU0NvbXBvdW5kUHJlZGljYXRl
+					o2xtMF8QE05TQ29tcG91bmRQcmVkaWNhdGVb
+					TlNQcmVkaWNhdGVfEA9OU0tleWVkQXJjaGl2
+					ZXLRcHFUcm9vdIABAAgAEQAaACMALQAyADcA
+					UABWAF0AdwCJAJAAkgCUAJYAmwCmAKgAqgCs
+					ALUAyQDcAPIA9AD2APgA+gEFAQ8BHgExAT0B
+					PwFBAUMBRQFHAVQBWQFbAWABawF0AYcBiwGe
+					AasBtAG5AbsBvQG/AcYB0AHSAdQB1gHbAeAB
+					/wIDAiICLwI0AkMCRwJPAlQCagJvAoUCnAKp
+					ArACwgLEAsYCyALPAtQC8AL0AxADHQMoAzMD
+					PANGA1UDVwNYA1oDXwN9A4EDnwO1A7oD0gPW
+					A+4D+gP/BAIEBwQdBCEENwRDBFUEWARdAAAA
+					AAAAAgEAAAAAAAAAcgAAAAAAAAAAAAAAAAAA
+					BF8=
+					</data>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Filter_Finder_Items_2</string>
+				<key>CFBundleVersion</key>
+				<string>2.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>Filter_Finder_Items_2</string>
+				<key>InputUUID</key>
+				<string>28BB7209-02E8-4736-A522-0B2C4EA5D881</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>4DD56774-2300-4A84-8B32-C27CBEEAA0EE</string>
+				<key>UUID</key>
+				<string>CD829E6B-8A68-447B-A24F-62B7285FA167</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>com.apple.cocoa.path</string>
+						<key>name</key>
+						<string>itemType</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<data>
+						</data>
+						<key>name</key>
+						<string>predicate</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>525.500000:556.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {theVolumes, parameters}	set keysPressed to do shell script "/usr/local/bin/modKeys control"	set controlPressed to do shell script "echo $((" &amp; keysPressed &amp; "&amp;4096?1:0))"	set optionPressed to do shell script "echo $((" &amp; keysPressed &amp; "&amp;2048?1:0))"		if controlPressed is equal to "1" then		set userID to ""		set permissions to "sudo"	else		set userID to user ID of (system info) &amp; "/"		set permissions to ""	end if		if optionPressed is equal to "1" then		set rm to "srm"	else		set rm to "rm"	end if		repeat with theVolume in theVolumes		tell application "Finder" to set volumeName to name of theVolume		set trashPath to quoted form of POSIX path of theVolume &amp; ".Trashes/" &amp; userID		try			if (count (paragraphs of (do shell script permissions &amp; "ls -l " &amp; trashPath))) &gt; 0 then				try					do shell script permissions &amp; "rm -r " &amp; trashPath &amp; "*"				on error					display dialog "Error: " &amp; volumeName &amp; "'s trash could not be emptied." buttons {"OK"} default button "OK"				end try			else				display dialog volumeName &amp; "'s trash is already empty." buttons {"OK"} default button "OK"			end if		on error			display dialog volumeName &amp; " has no trash folder." buttons {"OK"} default button "OK"		end try	end repeatend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>7B0D48A2-F784-4FA3-BD1E-96DD34F28255</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>2301B053-FE30-47FD-9CB7-B7125C81C444</string>
+				<key>UUID</key>
+				<string>53C7A4BA-34DB-4759-9A5B-B76567A03168</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>525.500000:333.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>18826C89-C253-4220-9467-3892FAAEC60C</key>
+		<dict>
+			<key>from</key>
+			<string>CD829E6B-8A68-447B-A24F-62B7285FA167 - CD829E6B-8A68-447B-A24F-62B7285FA167</string>
+			<key>to</key>
+			<string>53C7A4BA-34DB-4759-9A5B-B76567A03168 - 53C7A4BA-34DB-4759-9A5B-B76567A03168</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>serviceApplicationBundleID</key>
+		<string>com.apple.finder</string>
+		<key>serviceApplicationPath</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+		<key>serviceInputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject</string>
+		<key>serviceOutputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.servicesMenu</string>
+	</dict>
+</dict>
+</plist>
