@@ -12,16 +12,38 @@ OS X services to help you maintain your trash.
 
 ## Installation
 
-Open the `Trash Services Installer` file.
+Open the `Empty Volume's Trash` and `Permanently Delete` files, then select the install button in the dialog box.
+
+Move the `modKeys` script to the `/usr/local/bin/` directory (requires administrator permission).
 
 ## How To Use
 
-Something about services.
+The following services 
 
 ### [Empty Volume's Trash](id:volumes)
-Empty trash on selected USBs and Hard Drives.  
-Instructions…
+To empty trash on USBs and Hard Drives:
+
+1. select one or more volumes in Finder
+2. right click the selection
+3. navigate to the "Services" list
+4. click on "Empty Volume Trash"
+
 
 ### [Permanent Delete](id:delete)
-Permanently delete selected files.  
-Instructions...
+To permanently delete files:
+
+1. select one or more items in Finder
+2. right click the selection
+3. navigate to the "Services" list
+4. click on "Permanently Delete"
+
+---
+
+#### Modifier Keys
+The functionality of the above services can be altered by holding down the following modifier keys when selecting the service:
+
+##### Control
+Hold the control key to use administrator privileges (requires admin account, user must enter password)
+
+##### Option
+Hold the option key to securely delete files. This prevents anyone from undeleting or recovering any information about the files by overwriting, renaming, and truncating them before unlinking.

@@ -223,7 +223,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {theVolumes, parameters}	set keysPressed to do shell script "/usr/local/bin/modKeys control"	set controlPressed to do shell script "echo $((" &amp; keysPressed &amp; "&amp;4096?1:0))"	set optionPressed to do shell script "echo $((" &amp; keysPressed &amp; "&amp;2048?1:0))"		if controlPressed is equal to "1" then		set userID to ""		set permissions to "sudo"	else		set userID to user ID of (system info) &amp; "/"		set permissions to ""	end if		if optionPressed is equal to "1" then		set rm to "srm"	else		set rm to "rm"	end if		repeat with theVolume in theVolumes		tell application "Finder" to set volumeName to name of theVolume		set trashPath to quoted form of POSIX path of theVolume &amp; ".Trashes/" &amp; userID		try			if (count (paragraphs of (do shell script permissions &amp; "ls -l " &amp; trashPath))) &gt; 0 then				try					do shell script permissions &amp; "rm -r " &amp; trashPath &amp; "*"				on error					display dialog "Error: " &amp; volumeName &amp; "'s trash could not be emptied." buttons {"OK"} default button "OK"				end try			else				display dialog volumeName &amp; "'s trash is already empty." buttons {"OK"} default button "OK"			end if		on error			display dialog volumeName &amp; " has no trash folder." buttons {"OK"} default button "OK"		end try	end repeatend run</string>
+					<string>on run {theVolumes, parameters}	set keysPressed to do shell script "/usr/local/bin/modKeys control"	set controlPressed to do shell script "echo $((" &amp; keysPressed &amp; "&amp;4096?1:0))"	set optionPressed to do shell script "echo $((" &amp; keysPressed &amp; "&amp;2048?1:0))"		if controlPressed is equal to "1" then		set userID to ""		set permissions to "sudo"	else		set userID to user ID of (system info) &amp; "/"		set permissions to ""	end if		if optionPressed is equal to "1" then		set command to "srm -r"	else		set command to "rm -r"	end if		repeat with theVolume in theVolumes		tell application "Finder" to set volumeName to name of theVolume		set trashPath to quoted form of POSIX path of theVolume &amp; ".Trashes/" &amp; userID		try			if (count (paragraphs of (do shell script permissions &amp; "ls -l " &amp; trashPath))) &gt; 0 then				try					do shell script permissions &amp; command &amp; trashPath &amp; "*"				on error					display dialog "Error: " &amp; volumeName &amp; "'s trash could not be emptied." buttons {"OK"} default button "OK"				end try			else				display dialog volumeName &amp; "'s trash is already empty." buttons {"OK"} default button "OK"			end if		on error			display dialog volumeName &amp; " has no trash folder." buttons {"OK"} default button "OK"		end try	end repeatend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -287,7 +287,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>18826C89-C253-4220-9467-3892FAAEC60C</key>
+		<key>40548671-EB1E-47A3-A2C7-F6BF459DAD63</key>
 		<dict>
 			<key>from</key>
 			<string>CD829E6B-8A68-447B-A24F-62B7285FA167 - CD829E6B-8A68-447B-A24F-62B7285FA167</string>
